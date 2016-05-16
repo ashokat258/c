@@ -76,7 +76,7 @@ void print_preorder(struct tree * tree)
 {
     if (tree)
     {
-        printf("%d\n",tree->val);
+        printf("%d \n",tree->val);
         print_preorder(tree->left);
         print_preorder(tree->right);
     }
